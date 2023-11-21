@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  background-color: #000000;
+}
+
+.app {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #ffcefe;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  font-family: 'Monoton', sans-serif;
+  font-family: 'Pacifico', cursive;
+}
+
+.listaAnimais {
+  margin-top: 20px;
+  display: flex;
+  margin-inline-start: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cadastrar {
+  background-color: #b3acb2;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#status{
+  width: 100%;
+  max-width: 105px; 
+  margin-bottom: 10px;
+  margin-inline: 2px;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+.cadastrar input {
+  width: 100%;
+  max-width: 560px;
+  align-items: center;
+  margin-inline-start: 315px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.botaoCadastrar {
+  width: 100%;
+  margin-inline-start: 483px;
+  max-width: 200px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+  border: 0;
+  text-align: center;
+  font-family: 'Monoton', sans-serif;
+  font-family: 'Pacifico', cursive;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.botaoCadastrar:hover {
+  background-color: #ddd;
+}
+
+.tarefa {
+  background-color: #fff1d2;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tarefa img {
+  max-width: 100px;
+  max-height: 100px; 
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover; 
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 12
+}
+
+
+.acoes {
+  display: flex;
+  align-items: center;
+}
+
+.botaoConcluir,
+.botaoRemover {
+  width: 100px;
+  height: 50px;
+  background-color: #f171f9;
+  color: #000000;
+  padding: 10px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.botaoConcluir:hover,
+.botaoRemover:hover {
+  background-color: #fcc4ff;
+}
+.animal-bloco {
+  background-color: #fff1d2;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  align-items: center;
+}
+.descricao{
+  margin-inline-start: 10px;
+  color: #000000;
+  text-align: justify;
+  font-family: 'Monoton', sans-serif;
+  font-family: 'Pacifico', cursive;
+}
+.animal-bloco img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+.animal-bloco .acoes {
+  display: flex;
+  margin-inline-start: 25px;
+  flex-direction: row;
+  align-items: flex-end;
+}
+form{
+  width: 100%;
+}
+label{
+  margin-inline-start: 502px;
+  color: #000000;
+  text-align: center;
+  font-family: 'Monoton', sans-serif;
+  font-family: 'Pacifico', cursive;
+
+}
+.animal-bloco {
+  background-color: #fcc8ff; 
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input_filter{
+  width: 100%;
+  margin-inline-start: 225px;
+  max-width: 620px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+.opc_filter{
+  width: 100%;
+  max-width: 105px;
+  margin-bottom: 10px;
+  margin-inline: 2px;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
